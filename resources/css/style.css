@@ -1,0 +1,38 @@
+html {
+    font-size: 16px;
+   }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: white;;
+    background-color: black;
+   }
+
+   a {
+    color: lightseagreen;
+   }
+
+   h1 {
+    color: white;
+    font-family: 'Roboto', serif;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    width:100%;
+  }
+
+  h2 {
+    color: white;
+    font-family: 'Roboto', serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    width:100%;
+  }
+   
+  p {
+    color: #453E4F ; 
+    font-family: 'Roboto', serif; 
+    font-size: 1em;
+    line-height: 1.5;
+    width: 100%;
+  }
