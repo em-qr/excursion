@@ -1,3 +1,8 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
 html {
     font-size: 16px;
    }
@@ -12,13 +17,13 @@ html {
 
    a {
     color: aquamarine;
-    font-size: 16px;
+    font-size: 18px;
    }
 
    h1 {
     color: white;
     font-family: 'Open Sans', serif;
-    font-size: 50px;
+    font-size: 30px;
     line-height: 1.5;
     width:100%;
   }
@@ -26,7 +31,7 @@ html {
   h2 {
     color: white;
     font-family: 'Open Sans', serif;
-    font-size: 42px;
+    font-size: 22px;
     font-weight: 300;
     width:100%;
   }
@@ -34,14 +39,14 @@ html {
   p {
     color: grey; 
     font-family: 'Open Sans', serif; 
-    font-size: 21px;
+    font-size: 18px;
     line-height: 1.5;
     width: 100%;
 }
 
   p .copyright {
       color: grey;
-      font-size: 21px;
+      font-size: 18px;
       font-family: 'Open Sans', serif;
 }
 
@@ -49,7 +54,7 @@ html {
 
   
 .content-wrapper {
-    width: 100%;
+    width: 85%;
 }
 
 header, 
@@ -87,8 +92,8 @@ h1 {
     padding: 25px 0;
 }
 
-.phone-video {
-    padding-top: 25px;;
+video {
+    padding: 25px 40px 25px 0;
 }
 
 h2 {
@@ -99,7 +104,121 @@ p {
     padding: 10px;
 }
 
-.camping-img {
-    padding: 25px;
+img {
+    padding-top: 25px;
 }
+
     
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width: 768px) {
+    /******TABLET*****/
+
+    /**GENERAL STYLES****/
+
+.content-wrapper {
+    max-width: 640px;
+  }
+
+}
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media (min-width: 1200px){
+
+    .content-wrapper {
+      max-width: 1400px;
+    }
+
+    a {
+        color: aquamarine;
+        font-size: 16px;
+       }
+    
+       h1 {
+        color: white;
+        font-family: 'Open Sans', serif;
+        font-size: 50px;
+        line-height: 1.5;
+        width:100%;
+      }
+    
+      h2 {
+        color: white;
+        font-family: 'Open Sans', serif;
+        font-size: 42px;
+        font-weight: 300;
+        width:100%;
+      }
+       
+      p {
+        color: grey; 
+        font-family: 'Open Sans', serif; 
+        font-size: 21px;
+        line-height: 1.5;
+        width: 100%;
+    }
+    
+      p .copyright {
+          color: grey;
+          font-size: 21px;
+          font-family: 'Open Sans', serif;
+    }
+    
+      /***** Structural Styles *****/
+    
+      
+    .content-wrapper {
+        width: 100%;
+    }
+    
+    header, 
+    footer,
+    #info-area,
+    #video {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-flow: row wrap;
+    }
+    
+    .copyright-logo {
+        display: flex;
+        justify-content: center;
+        text-align: right;
+        width: 75%;
+    }
+    
+    
+    /**** default margin and paddings ******/
+    
+    h1,
+    h2 {
+        margin: 0;
+    }
+    
+    p {
+        margin: 0;
+    }
+    
+    /****** Padding and margin ****/
+    
+    h1 {
+        padding: 25px 0;
+    }
+    
+    .phone-video {
+        padding-top: 25px;;
+    }
+    
+    h2 {
+        padding: 25px;
+    }
+    
+    p {
+        padding: 10px;
+    }
+    
+    .camping-img {
+        padding: 25px;
+    }
+}
