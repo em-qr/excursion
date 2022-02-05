@@ -3,7 +3,7 @@ html {
    }
   
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1em;
     color: white;;
     background-color: black;
@@ -15,24 +15,41 @@ html {
 
    h1 {
     color: white;
-    font-family: 'Roboto', serif;
-    font-size: 1.75rem;
+    font-family: 'Inter', serif;
+    font-size: 3rem;
     line-height: 1.5;
     width:100%;
   }
 
   h2 {
     color: white;
-    font-family: 'Roboto', serif;
-    font-size: 1.25rem;
+    font-family: 'Inter', serif;
+    font-size: 2.25rem;
     line-height: 1.5;
     width:100%;
   }
    
   p {
-    color: #453E4F ; 
-    font-family: 'Roboto', serif; 
-    font-size: 1em;
+    color: rgb(129, 127, 127); 
+    font-family: 'Inter', serif; 
+    font-size: 1.5rem;
     line-height: 1.5;
     width: 100%;
   }
+
+  /***** Structural Styles *****/
+
+  
+.content-wrapper {
+    width: 100%;
+    }
+
+    header, 
+    footer,
+    #info-area {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-flow: row wrap;
+      }
+    
