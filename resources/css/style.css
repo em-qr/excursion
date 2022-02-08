@@ -126,6 +126,26 @@ a {
     max-width: 640px;
   }
 
+  a {
+    font-size: 24px;
+   }
+
+   h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+   
+  p {
+    font-size: 24px;
+}
+
+  p .copyright {
+      font-size: 24px;
+    }
+
 }
 
 /* ----------- Monitors larger than 1200px wide ----------- */
