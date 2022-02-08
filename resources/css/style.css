@@ -72,6 +72,11 @@ footer,
     width: 75%;
 }
 
+.tent {
+  width: 387px;
+  height: 213px;
+}
+
 
 /**** default margin and paddings ******/
 
@@ -126,26 +131,66 @@ a {
     max-width: 640px;
   }
 
-  a {
+a {
     font-size: 24px;
-   }
-
-   h1 {
+}
+  
+h1 {
     font-size: 40px;
   }
 
-  h2 {
+h2 {
     font-size: 30px;
   }
    
-  p {
+p {
     font-size: 24px;
 }
 
-  p .copyright {
-      font-size: 24px;
-    }
+p .copyright {
+    font-size: 24px;
+}
 
+.tent {
+    width: 600px;
+  height: 350px;
+}
+
+}
+
+@media only screen and (min-width:1024px) {
+
+    /* added for landscape tablets and iPad Pro */
+    .content-wrapper {
+        max-width: 1400px;
+      }
+
+    a {
+        font-size: 24px;
+       }
+    
+       h1 {
+        font-size: 40px;
+      }
+    
+      h2 {
+        font-size: 30px;
+      }
+       
+      p {
+        font-size: 24px;
+        padding: 10px 70px;                                                                                                                                                                                                     
+       }
+    
+      p .copyright {
+          font-size: 24px;
+        }
+
+    .tent {
+         width: 800px;
+         height: 550px;
+        }
+    
 }
 
 /* ----------- Monitors larger than 1200px wide ----------- */
@@ -156,36 +201,23 @@ a {
     }
 
     a {
-        color: aquamarine;
         font-size: 16px;
        }
     
-       h1 {
-        color: white;
-        font-family: 'Open Sans', serif;
-        font-size: 50px;
-        line-height: 1.5;
-        width:100%;
+    h1 {
+      font-size: 50px;
       }
     
-      h2 {
-        color: white;
-        font-family: 'Open Sans', serif;
-        font-size: 42px;
-        font-weight: 300;
-        width:100%;
+    h2 {
+       font-size: 42px;
       }
        
-      p {
+    p {
         font-size: 21px;
-        line-height: 1.5;
-        width: 100%;
     }
     
       p .copyright {
-          color: grey;
           font-size: 21px;
-          font-family: 'Open Sans', serif;
     }
     
       /***** Structural Styles *****/
@@ -244,5 +276,10 @@ a {
     
     .camping-img {
         padding: 25px;
+    }    
+
+    video {
+        height: 1000px;
     }
 }
+
